@@ -32,9 +32,9 @@ cat_messages = [
     "The bug is hiding under the couch.",
     "ᓚᘏᗢ Good human."
 ]
-```
 
 
 client = MyClient(intents=intents)
 client.run(the token) 
 
+```
