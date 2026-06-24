@@ -25,12 +25,12 @@ class MyClient(discord.Client):
 intents = discord.Intents.default()
 intents.message_content = True
 cat_messages = [
-    "ᓚᘏᗢ meow!",
+    "meow!",
     "Don't forget to drink water!",
-    "ᓚᘏᗢ *purrs approvingly*",
+    "*purrs approvingly*",
     "You have received +10 cat luck.",
     "The bug is hiding under the couch.",
-    "ᓚᘏᗢ Good human."
+    "Good human."
 ]
 
 
