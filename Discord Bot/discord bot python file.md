@@ -14,7 +14,7 @@ class MyClient(discord.Client):
       await message.channel.send('meowie')
 
     if message.content.startswith('$purr'):
-      await message.channel.send("ᓚᘏᗢ *purrrrrrrrr*")
+      await message.channel.send("*purrrrrrrrr*")
 
     if message.content.startswith('$treat'):
       await message.channel.send("Nom nom nom!")
